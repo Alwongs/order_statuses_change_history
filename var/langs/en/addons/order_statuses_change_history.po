@@ -1,0 +1,26 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::order_statuses_change_history"
+msgid "Order change history"
+msgstr "Order change history"
+
+msgctxt "Addons::description::order_statuses_change_history"
+msgid "Monitors and logs order status change events. Developed by <a target=\"_blank\" href=\"https://alwongs.github.io/resume-vue/\">Alexander Martynov</a>"
+msgstr "Monitors and logs order status change events. Developed by <a target=\"_blank\" href=\"https://alwongs.github.io/resume-vue/\">Alexander Martynov</a>"
+
+msgctxt "Languages::order_statuses_change_history.order_statuses_change_history"
+msgid "Order statuses change history"
+msgstr "Order statuses change history"
+
+msgctxt "Languages::order_statuses_change_history.old_status"
+msgid "Old status"
+msgstr "Old status"
+
+msgctxt "Languages::order_statuses_change_history.new_status"
+msgid "New status"
+msgstr "New status"
+

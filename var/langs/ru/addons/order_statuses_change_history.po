@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.17.2/addons/order_statuses_change_history.po\n"
+"X-Crowdin-File-ID: 7914\n"
+"PO-Revision-Date: 2024-05-01 09:00\n"
+
+msgctxt "Addons::name::order_statuses_change_history"
+msgid "Order change history"
+msgstr "История изменения статусов заказов"
+
+msgctxt "Addons::description::order_statuses_change_history"
+msgid "Monitors and logs order status change events. Developed by <a target=\"_blank\" href=\"https://alwongs.github.io/resume-vue/\">Alexander Martynov</a>"
+msgstr "Отслеживает события изменения статуса заказа и логирует их. Developed by <a target=\"_blank\" href=\"https://alwongs.github.io/resume-vue/\">Alexander Martynov</a>"
+
+msgctxt "Languages::order_statuses_change_history.order_statuses_change_history"
+msgid "Order statuses change history"
+msgstr "История изменения статусов заказов"
+
+msgctxt "Languages::order_statuses_change_history.old_status"
+msgid "Old status"
+msgstr "Старый статус"
+
+msgctxt "Languages::order_statuses_change_history.new_status"
+msgid "New status"
+msgstr "Новый статус"
+

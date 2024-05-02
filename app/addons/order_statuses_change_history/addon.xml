@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>order_statuses_change_history</id>
+    <version>1.0</version>
+    <priority>2100</priority>
+    <position>250</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Alexander Martynov</name>
+            <email>alwong@ya.ru</email>
+            <url>https://alwongs.github.io/resume-vue/</url>
+        </author>
+    </authors>
+    <supplier>Alexander Martynov</supplier>
+    <supplier_link>https://alwongs.github.io/resume-vue/</supplier_link>
+    <queries>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:order_statuses_change_logs` (
+                `log_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `order_id` int(11) NOT NULL,
+                `status_from` char(1) NOT NULL,
+                `status_to` char(1) NOT NULL,
+                `user_id` int(11) NOT NULL,
+                `timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                PRIMARY KEY (`log_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:order_statuses_change_logs`;</item>
+    </queries>    
+</addon>
+
+
