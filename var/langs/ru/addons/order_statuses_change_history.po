@@ -13,7 +13,7 @@ msgstr ""
 "PO-Revision-Date: 2024-05-01 09:00\n"
 
 msgctxt "Addons::name::order_statuses_change_history"
-msgid "Order change history"
+msgid "Order statuses change history"
 msgstr "История изменения статусов заказов"
 
 msgctxt "Addons::description::order_statuses_change_history"

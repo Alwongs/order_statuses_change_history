@@ -5,8 +5,8 @@ msgstr "Project-Id-Version: tygh\n"
 "Language: en_US"
 
 msgctxt "Addons::name::order_statuses_change_history"
-msgid "Order change history"
-msgstr "Order change history"
+msgid "Order statuses change history"
+msgstr "Order statuses change history"
 
 msgctxt "Addons::description::order_statuses_change_history"
 msgid "Monitors and logs order status change events. Developed by <a target=\"_blank\" href=\"https://alwongs.github.io/resume-vue/\">Alexander Martynov</a>"
